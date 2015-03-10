@@ -9,5 +9,6 @@
 * [Managing Sites and Pages](managing_sites_and_pages/README.md)
    * [Managing Sites](managing_sites_and_pages/managing_sites.md)
    * [Managing Pages](managing_sites_and_pages/managing_pages.md)
-* [Publishing Content](publishing_content/README)
+* [Publishing Content](publishing_content/README.md)
+* [Targeting Content](targeting_content/README)
 
