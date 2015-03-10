@@ -26,7 +26,8 @@ Steps:
 ![](mp-2.png)
 4. Type a name for the page, select Portlet as the page Type (a Portlet page is a page on which you can add portlets).
     * If you check the box for Copy Parent, it will copy the page layout and portlets, but NOT any content displayed in portlets or portlet configurations.  There is a separate way to make an exact copy of a page displayed below
-    * Checking the box for Hidden will suppress a page from Navigation, but the page will still be visible in Search.
+    * Checking the box for Hidden will suppress a page from Navigation, but the page will still be visible in Search.     
+![](mp-3.png)
 5. Click on the name of your new page
     * If you want to copy an existing page, click Copy Portlets from Page, select the page and click Copy
         1. Not that this will make an exact copy of the source page but it does NOT duplicate content.
