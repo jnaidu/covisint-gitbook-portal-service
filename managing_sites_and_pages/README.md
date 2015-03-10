@@ -1,0 +1,2 @@
+# Managing Sites and Pages
+When users build and deploy applications, the applications are typically deployed as portlets. The platform includes a complete content management system to build websites, pages and content to complete the solution for the application. These tools are equally important when rapid-prototyping solutions to give context to possible new solutions. The following sections describe how to create sites and manage site pages.
