@@ -19,14 +19,14 @@ Steps:
 1. Log in to portal as a content administrator.
 2. Adding and manipulating pages requires Edit Controls to be enabled.  Check the box in the dock bar.
  * Note that the dockbar only appears if a user has the ability to perform the functions on the dockbar in the context of the page the user is viewing
-2. On the dockbar, click **Manage**, then select **Site Pages**.
+2. On the dockbar, click **Manage**, then select **Site Pages**.    
 ![](mp-1.png)
 3. If you want to add a Top Level Page, click **AddPage**
-    * If you want to add a sub page, first click on the page that will be the parent page, then click Add Child Page.
+    * If you want to add a sub page, first click on the page that will be the parent page, then click Add Child Page.  
 ![](mp-2.png)
 4. Type a name for the page, select Portlet as the page Type (a Portlet page is a page on which you can add portlets).
     * If you check the box for Copy Parent, it will copy the page layout and portlets, but NOT any content displayed in portlets or portlet configurations.  There is a separate way to make an exact copy of a page displayed below
-    * Checking the box for Hidden will suppress a page from Navigation, but the page will still be visible in Search.
+    * Checking the box for Hidden will suppress a page from Navigation, but the page will still be visible in Search. 
 ![](mp-3.png)
 5. Click on the name of your new page
     * If you want to copy an existing page, click Copy Portlets from Page, select the page and click Copy
