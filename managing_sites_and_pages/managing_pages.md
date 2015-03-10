@@ -22,7 +22,8 @@ Steps:
 2. On the dockbar, click **Manage**, then select **Site Pages**.    
 ![](mp-1.png)
 3. If you want to add a Top Level Page, click **AddPage**
-    * If you want to add a sub page, first click on the page that will be the parent page, then click Add Child Page.
+    * If you want to add a sub page, first click on the page that will be the parent page, then click Add Child Page.  
+![](mp-2.png)
 4. Type a name for the page, select Portlet as the page Type (a Portlet page is a page on which you can add portlets).
     * If you check the box for Copy Parent, it will copy the page layout and portlets, but NOT any content displayed in portlets or portlet configurations.  There is a separate way to make an exact copy of a page displayed below
     * Checking the box for Hidden will suppress a page from Navigation, but the page will still be visible in Search.
