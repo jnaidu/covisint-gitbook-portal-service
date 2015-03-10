@@ -31,7 +31,7 @@
 
 
         
-    <div class="book"  data-level="2.1" data-basepath=".." data-revision="1426009401986">
+    <div class="book"  data-level="2.1" data-basepath=".." data-revision="1426011412678">
     
 
 <div class="book-summary">
@@ -275,7 +275,7 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_455">
+                    <section class="normal" id="section-gitbook_799">
                     
                         <h1 id="managing-sites">Managing Sites</h1>
 <p>Sites are the basic unit for creating content in the content management system.  Each site has a discrete set of assets (pages, documents, etc.) that are managed by a set of site roles that can be granted to users for that site.  When using sites, it&#39;s important to understand the basic concepts:</p>
@@ -284,6 +284,54 @@
 <h2 id="site">Site</h2>
 <p>A site is the basic unit for content management and collaboration.</p>
 <h3 id="site-types">Site Types</h3>
+<ul>
+<li>Open – Users can join or leave sites without any approval required.</li>
+<li>Restricted – Users request access to sites and access is granted by a Site administrator</li>
+<li>Private – Users can access Private Sites by invitation only – NOTE that sites in the POC are all built as Private Sites</li>
+</ul>
+<h3 id="site-content">Site Content</h3>
+<p>Each site has an independent set of content:</p>
+<ul>
+<li>Web Content</li>
+<li>Documents and Media</li>
+<li>Blog</li>
+<li>Wiki</li>
+<li>Forum</li>
+<li>Knowledge Base</li>
+<li>Local taxonomy</li>
+<li>Site Pages</li>
+</ul>
+<h3 id="site-roles">Site Roles</h3>
+<p>Each Site has an independent set of users that can be granted granular access to Site content.</p>
+<ul>
+<li>Site Administrator – Site administrator is a standard role across all sites that has omni-administrative privileges for a Site, including content administration, page and site administration, and user access administration</li>
+<li>Site Member – Site member is a standard role across all sites with basic access to authenticated site content</li>
+<li>Site Teams – Site Teams are ad hoc roles that can be created on an individual site</li>
+</ul>
+<h3 id="site-template">Site Template</h3>
+<p>A generic site construct including pages, content and permissions from which new Sites can be created</p>
+<h2 id="web-content-article">Web Content Article</h2>
+<p>A single piece of HTML content that can be displayed on one or more pages that can be created using a Web Content Template or the WYSIWYG editor.</p>
+<h2 id="web-content-structure">Web Content Structure</h2>
+<p>A portal construct that is used to store form-based data to build Web Content Articles using Templates.</p>
+<h2 id="web-content-template">Web Content Template</h2>
+<p>A portal construct that is used to automatically display a Web Content article.</p>
+<h2 id="asset-publisher">Asset Publisher</h2>
+<p>A portlet that displays content dynamically based on site repository, asset type, categorization etc. with multiple display styles.</p>
+<h2 id="create-a-site">Create a site</h2>
+<h3 id="steps">Steps:</h3>
+<ol>
+<li>Click the <strong>Go to</strong> menu and select <strong>Control Panel</strong>.
+<img src="ms.png" alt=""></li>
+<li>On the left side, under Portal section, click <strong>Sites</strong>.
+<img src="ms-1.png" alt=""></li>
+<li>Click the <strong>Add</strong> menu and select <strong>Blank Site</strong>.
+<img src="ms-2.png" alt=""></li>
+<li>Enter the site name, and the description. Select <strong>Open</strong>, and check <strong>Active</strong>. Then, click <strong>Save</strong> to save the site.
+<img src="m-3.png" alt=""></li>
+</ol>
+<h3 id="result">Result</h3>
+<p>You have successfully created a new site</p>
 
                     
                     </section>
