@@ -46,3 +46,9 @@ Steps:
 ## Add Content to a Page
 ### Steps:
 1. Go to the site URL. To get the site URL, go to Site Settings, and note down the site name from the Name field.
+![](acp-1.png)
+2. Adding and manipulating pages requires Edit Controls to be enabled.  Check the box in the dock bar.
+3. Click the **Add** menu and select **Web Content Display**.
+4. Click to add the content.
+5. Enter the Title and the Content. Click **Publish**.
+6. You have successfully added the content to the Welcome page.
