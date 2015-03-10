@@ -19,7 +19,8 @@ Steps:
 1. Log in to portal as a content administrator.
 2. Adding and manipulating pages requires Edit Controls to be enabled.  Check the box in the dock bar.
  * Note that the dockbar only appears if a user has the ability to perform the functions on the dockbar in the context of the page the user is viewing
-2. On the dockbar, click **Manage**, then select **Site Pages**.
+2. On the dockbar, click **Manage**, then select **Site Pages**.    
+![](mp-1.png)
 3. If you want to add a Top Level Page, click **AddPage**
     * If you want to add a sub page, first click on the page that will be the parent page, then click Add Child Page.
 4. Type a name for the page, select Portlet as the page Type (a Portlet page is a page on which you can add portlets).
