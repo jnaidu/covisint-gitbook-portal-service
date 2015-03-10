@@ -49,6 +49,10 @@ Steps:
 ![](acp-1.png)
 2. Adding and manipulating pages requires Edit Controls to be enabled.  Check the box in the dock bar.
 3. Click the **Add** menu and select **Web Content Display**.
-4. Click to add the content.
+![](acp-2.png)
+4. Click![](acp-click.png) to add the content.
+![](acp-3.png)
 5. Enter the Title and the Content. Click **Publish**.
+![](acp-4.png)
 6. You have successfully added the content to the Welcome page.
+![](acp-5.png)
