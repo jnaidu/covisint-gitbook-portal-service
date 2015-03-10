@@ -8,4 +8,5 @@
    * [Personalization and Communication](core_components_of_the_portal_service/personalization_and_communication.md)
 * [Managing Sites and Pages](managing_sites_and_pages/README.md)
    * [Managing Sites](managing_sites_and_pages/managing_sites.md)
+   * Managing Pages
 
