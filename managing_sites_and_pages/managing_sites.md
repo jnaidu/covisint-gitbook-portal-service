@@ -53,7 +53,9 @@ A portlet that displays content dynamically based on site repository, asset type
 3. Click the **Add** menu and select **Blank Site**.
 ![](ms-2.png)
 4. Enter the site name, and the description. Select **Open**, and check **Active**. Then, click **Save** to save the site.
-![](m-3.png)
+![](ms-3.png)
+
+
 
 ### Result
 You have successfully created a new site
