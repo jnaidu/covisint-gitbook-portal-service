@@ -47,10 +47,13 @@ A portlet that displays content dynamically based on site repository, asset type
 ## Create a site
 ### Steps:
 1. Click the **Go to** menu and select **Control Panel**.
+![](ms.png)
 2. On the left side, under Portal section, click **Sites**.
+![](ms-1.png)
 3. Click the **Add** menu and select **Blank Site**.
-4. Enter the site name, and the description.S
-5. Select **Open**, and check **Active**. Then, click **Save** to save the site.
+![](ms-2.png)
+4. Enter the site name, and the description. Select **Open**, and check **Active**. Then, click **Save** to save the site.
+![](m-3.png)
 
 ### Result
 You have successfully created a new site
