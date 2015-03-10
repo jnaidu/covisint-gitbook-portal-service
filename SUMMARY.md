@@ -4,4 +4,6 @@
 * [Core Components of the Portal Service](core_components_of_the_portal_service/README.md)
    * [Mobility and Presentation](core_components_of_the_portal_service/mobility_and_presentation.md)
    * [Applications and Integrations](core_components_of_the_portal_service/applications_and_integrations.md)
+   * [Collaboration and Content Management](core_components_of_the_portal_service/collaboration_and_content_management.md)
+   * [Personalization and Communication](core_components_of_the_portal_service/personalization_and_communication.md)
 
