@@ -94,7 +94,7 @@ The following business rules describe how Theme Inheritance works when enabled a
                 * This could be used to drive access to more than one or all sites in a hierarchy
                 * This could be used to create a matrixed organization
             * A user will be a named, individual member of only one Organization
-b.	If the check box for” Enable Theme Inheritance” is checked:
+    * If the check box for” Enable Theme Inheritance” is checked:
 i.	If there is no override web content article anywhere in the portal, theme appears as default for all users on Site A.
 ii.	If there is an override web content article in the web content repository for Site A and nowhere else in the portal, Site A will have the style overrides of that web content article.
 iii.	If there is an override web content article in the Org Site where the user is a named, individual member of the Organization, (“Site B”) then the style overrides of the web content article in Site B will be applied to Site A when the user visits site A.
