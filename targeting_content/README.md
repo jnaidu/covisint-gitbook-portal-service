@@ -60,8 +60,31 @@ This section describes the different ways to introduce a piece of web content in
     2. Categories are configured on the Asset Publisher to include the Web Content Article in the display criteria 
     3. The article is displayed in an Asset publisher portlet on any site as long as it is scoped and configured to display content from the site where the content is stored and based on categorization
 
-
 ## Publish content on a page based on personalization or preference
+    * This is also a simple way to publish content.
+    * Ease of Publishing: Simple
+    * Ease of Administration: Medium
+1. We do not have the function to apply categories to users in bulk in the POC
+    1. Categories can be applied to individual users
+2. Content managers can publish content that is displayed in a particular context
+3. A web content article can be created in a location where users can access it 
+    1. Global content repository
+    2. Site to which the target users have access
+        * Content can be syndicated to another site
+4. The content is permissioned appropriately
+    1. Site Member/Role
+        * Membership driven by Service Package
+    2. Guest
+5. Categories are applied to the Web Content Article
+6. Asset Publisher is configured to display Web Content Articles:
+    1. Scope includes site or repository where the Web Content is located
+    2. Categories are configured on the Asset Publisher to include the Web Content Article in the display criteria 
+    3. Personalization settings can be configured on the Asset Publisher
+        * By selecting a Global vocabulary in Personalization
+        * Asset Publisher looks at the categories on the user viewing the page from the selected vocabulary
+        * Asset Publisher then displays other assets that have the same categories applied to them as to the user
+iv.	The article is displayed in an Asset publisher portlet on any site as long as it is scoped and configured to display content from the site where the content is stored and based on categorization
+
 
 ## Publish content that can appear on one page, then downstream content managers can choose to display the content in a site or modify the content before it is displayed
 
