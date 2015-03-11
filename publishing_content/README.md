@@ -70,7 +70,11 @@ This section illustrates how you can import a portlet using the portlet-specific
 ### Steps:
 1. Log into the Covisint App Cloud Developer Portal.
 2. Click **Go to** and **Control Panel**.
-3. Click **Plugins Installation**.
-4. Click **Private Plugin Installer**.
-5. Click **Upload File**, and then choose a WAR file to install a layout template, and click **Install**.
+![](up-1.png)
+3. Click **Plugins Installation**.    
+![](up-2.png)
+4. Click **Private Plugin Installer**.    
+![](up-3.png)
+5. Click **Upload File**, and then choose a WAR file to install a layout template, and click **Install**.    
+![](up-4.png)
 
