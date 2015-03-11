@@ -84,3 +84,25 @@ The following elements can be configured in the theme CSS Override.  The CSS Ove
     * Content H4 Font Color
     * Content H4 Font Weight
 
+## Business Rules for Theme Override
+The following business rules describe how Theme Inheritance works when enabled and disabled:
+1. Base theme is the Covisint branded theme on a specific site (“Site A”)
+    * Assumptions:
+        1. Site A is not part of the Org Site hierarchy where the users belong
+        2. A user can only belong directly to one Organization at a time
+            * A users’ organization may be a member of one or more other organizations
+                * This could be used to drive access to more than one or all sites in a hierarchy
+                * This could be used to create a matrixed organization
+            * A user will be a named, individual member of only one Organization
+b.	If the check box for” Enable Theme Inheritance” is checked:
+i.	If there is no override web content article anywhere in the portal, theme appears as default for all users on Site A.
+ii.	If there is an override web content article in the web content repository for Site A and nowhere else in the portal, Site A will have the style overrides of that web content article.
+iii.	If there is an override web content article in the Org Site where the user is a named, individual member of the Organization, (“Site B”) then the style overrides of the web content article in Site B will be applied to Site A when the user visits site A.
+iv.	If there is not an override web content article in the Org Site where the user is a named, individual member of the Organization, (“Site B”) but there is an override web content in the hierarchy of Orgs where the user is a named individual member (“Site C”)then the style overrides of the web content article in Site C will be applied to Site A when the user visits site A.
+c.	If the check box for “Enable Theme Inheritance” is NOT checked:
+i.	If there is no override web content article anywhere in the portal, theme appears as default for all users on Site A.
+ii.	If there is an override web content article in the web content repository for Site A and nowhere else in the portal, Site A will have the style overrides of that web content article.
+iii.	If there is an override web content article in the Org Site where the user is a named, individual member of the Organization, (“Site B”) then the style overrides of the web content article in Site B will NOT be applied to Site A when the user visits site A.
+iv.	If there is not an override web content article in the Org Site where the user is a named, individual member of the Organization, (“Site B”) but there is an override web content in the hierarchy of Orgs where the user is a named individual member (“Site C”)then the style overrides of the web content article in Site C will NOT be applied to Site A when the user visits site A.
+d.	The check box for “Enable Theme Inheritance” is NOT checked by default.
+
