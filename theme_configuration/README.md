@@ -36,4 +36,51 @@ The following settings can be configured:
 * **IE8 Stylesheet (Default value: /documents/null/ie8.css)** – This setting controls the URL to the CSS file for IE8 responsive behavior.
 * **Include Search (Default value: true)** – This setting controls whether the search box is displayed on a page or not.  The search box appears on the top right of the Top Hat section of the page.
 
-## Theme
+## Theme Override
+The following elements can be configured in the theme CSS Override.  The CSS Override is based on a structure and template.  The default values in the structure can be set using the standard functionality.  The Theme is designed to look for content based on a structure named STYLESHEET_OVERRIDE and for the Footer based on a structure named FOOTER_CONTENT.  The list of items that can be configured are outlined below and the values entered are HTML code for the various elements (Hexadecimal values for colors, em size for font sizes, and image paths for images):
+* **Base Styles**
+    * Background Color
+    * Base Font Size
+    * Dockbar Styles
+    * Dockbar Background Color
+    * Dockbar Link Color
+    * Dockbar Link (Hover) Color
+* **Top Hat Rules**
+    * Top Hat Sidewall Color
+    * Top Hat Background Color
+    * Masthead Styles
+    * Brand Logo
+    * Masthead Background Image
+    * Masthead Background Color
+    * Masthead Sidewall Color
+    * Masthead Site Name Font Size
+    * Masthead Site Name Font Color
+* **Navigation Styles**
+    * Navigation Background Color
+    * Navigation Sidewall Color
+    * Navigation Link Text Color
+    * Navigation Link Text (Hover) Color
+    * Navigation Active Link Background Color
+Content Area Styles
+Content Area Sidewall Color
+Content Area Background Color
+Footer Styles
+Footer Background Color
+Footer Sidewall Color
+Footer Text Color
+Footer Link Color
+Footer Link (Hover) Color
+Typography Styles
+Content H1 Font Size
+Content H1 Font Color
+Content H1 Font Weight
+Content H2 Font Size
+Content H2 Font Color
+Content H2 Font Weight
+Content H3 Font Size
+Content H3 Font Color
+Content H3 Font Weight
+Content H4 Font Size
+Content H4 Font Color
+Content H4 Font Weight
+
