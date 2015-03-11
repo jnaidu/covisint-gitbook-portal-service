@@ -37,8 +37,11 @@ You can upload the entire site via a LAR file.
 ### Steps:
 1.	Log in to your site as a Portal Administrator.
 2.	Under your site section, click **Web Content**.
+![](ues-1.png)
 3.	On the right corner, click ![](uwc-click.png) and select **Export/Import**.
+![](ues-2.png)
 4.	Click the Import tab, select **Choose File** to select the desired LAR file. Then, click Import.
+![](ues-3.png)
 5.	You have successfully imported the Web Content.
 
 ## Upload a Portlet
