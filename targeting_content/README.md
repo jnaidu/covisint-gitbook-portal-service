@@ -87,5 +87,18 @@ This section describes the different ways to introduce a piece of web content in
 
 
 ## Publish content that can appear on one page, then downstream content managers can choose to display the content in a site or modify the content before it is displayed
+    * This is also a simple way to publish content.
+    * Ease of Publishing: Simple
+    * Ease of Administration: Medium
+1. In this example, the publishing model is the same as number 4 above, with one additional set of steps.
+2. When the content is published by the main content manager, a secondary content manager can be notified of the piece of content either by subscribing to a Category or maintaining an asset publisher visible to the content manager to show the new content as it is published.
+3. The secondary content manager can syndicate the content by applying new categories to a piece of content 
+    1. The new categories drive which asset publishes on which pages will display the content and to whom
+4. Categories can be permissioned differently for different roles
+    1. Categories can be configured so that different users in different roles can:
+        * View the categories
+        * Apply the categories
+            * Apply the categories to particular asset types (i.e. documents vs. web content)
+5. Note that a content manager can create a copy of an article, at which point the normal content creation process applies.
 
 ## Content is secured so that only one or more groups or roles can see the content
