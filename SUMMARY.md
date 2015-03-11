@@ -12,4 +12,5 @@
 * [Publishing Content](publishing_content/README.md)
 * [Controlling Access to and Audience for Content](controlling_access_to_and_audience_for_content/README.md)
 * [Theme Configuration](theme_configuration/README.md)
+* [Glossary of Terms](glossary_of_terms.md/README.md)
 
