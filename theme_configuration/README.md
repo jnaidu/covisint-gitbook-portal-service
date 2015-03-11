@@ -61,15 +61,15 @@ The following elements can be configured in the theme CSS Override.  The CSS Ove
     * Navigation Link Text Color
     * Navigation Link Text (Hover) Color
     * Navigation Active Link Background Color
-Content Area Styles
-Content Area Sidewall Color
-Content Area Background Color
-Footer Styles
-Footer Background Color
-Footer Sidewall Color
-Footer Text Color
-Footer Link Color
-Footer Link (Hover) Color
+* **Content Area Styles**
+    * Content Area Sidewall Color
+    * Content Area Background Color
+* **Footer Styles**
+    * Footer Background Color
+    * Footer Sidewall Color
+    * Footer Text Color
+    * Footer Link Color
+    * Footer Link (Hover) Color
 Typography Styles
 Content H1 Font Size
 Content H1 Font Color
