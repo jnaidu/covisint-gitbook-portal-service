@@ -70,17 +70,17 @@ The following elements can be configured in the theme CSS Override.  The CSS Ove
     * Footer Text Color
     * Footer Link Color
     * Footer Link (Hover) Color
-Typography Styles
-Content H1 Font Size
-Content H1 Font Color
-Content H1 Font Weight
-Content H2 Font Size
-Content H2 Font Color
-Content H2 Font Weight
-Content H3 Font Size
-Content H3 Font Color
-Content H3 Font Weight
-Content H4 Font Size
-Content H4 Font Color
-Content H4 Font Weight
+* **Typography Styles**
+    * Content H1 Font Size
+    * Content H1 Font Color
+    * Content H1 Font Weight
+    * Content H2 Font Size
+    * Content H2 Font Color
+    * Content H2 Font Weight
+    * Content H3 Font Size
+    * Content H3 Font Color
+    * Content H3 Font Weight
+    * Content H4 Font Size
+    * Content H4 Font Color
+    * Content H4 Font Weight
 
