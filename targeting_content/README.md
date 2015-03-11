@@ -1,5 +1,5 @@
 # Targeting Content
-This section describes the different ways to introduce a piece of web content into an environment, based on the business rules and the model that is configured in the POC. There are several ways to deliver content:
+This section describes the different ways to introduce a piece of web content into an environment. There are several ways to deliver content:
 1. Publish content on a single page that is displayed to all users
 2. Publish content on a page that is displayed to users of just one customer
 3. Publish content on a page that is displayed to users based on context
