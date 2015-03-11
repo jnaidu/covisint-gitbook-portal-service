@@ -26,7 +26,7 @@ You can upload documents and media via a LAR file.
 ![](udm-2.png)
 4. Click **Public Pages** and then click **Import**.    
 ![](udm-3.png)
-5. Choose the LAR file and then click **Import**.
+5. Choose the LAR file and then click **Import**.   
 ![](udm-4.png)
 6. Click the Import tab, select **Choose File** to select the desired LAR file. Then, click **Import**.
 ![](udm-5.png)
