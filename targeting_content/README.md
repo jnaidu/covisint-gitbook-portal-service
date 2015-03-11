@@ -102,3 +102,9 @@ This section describes the different ways to introduce a piece of web content in
 5. Note that a content manager can create a copy of an article, at which point the normal content creation process applies.
 
 ## Content is secured so that only one or more groups or roles can see the content
+1. When a piece of content is published, a content manager can also select which roles have the View permission to a piece of content
+2. The view permission determines whether a piece of content can be seen at all, despite whether the user can see the page or context around where the piece of content is displayed
+3. Even though an Asset Publisher portlet may be configured to display a piece of content, a user must first have access to the content in order to be able to see it
+4. In the POC, content is permissioned by role, by permission
+    * The interface may require additional changes to operate at the scale of tens of thousands of roles
+
