@@ -34,13 +34,13 @@ This section describes the different ways to introduce a piece of web content in
     1. Site to which all the members have access
     2. Content can be syndicated to another site
         * Only members of the site where the content is published will see it
-c.	The content is permissioned to a role shared by the site members
-i.	Site Member
-1.	Membership driven by Service Package
-d.	The article is displayed either in:
-i.	Web content display portlet on the Site where the content is stored
-1.	Global content can be displayed on any page
-ii.	Asset publisher portlet on any site as long as it is scoped to display content from the site where the content is stored
+3. The content is permissioned to a role shared by the site members
+    1. Site Member
+        * Membership driven by Service Package
+4. The article is displayed either in:
+    1. Web content display portlet on the Site where the content is stored
+        * Global content can be displayed on any page
+    2. Asset publisher portlet on any site as long as it is scoped to display content from the site where the content is stored
 
 
 
