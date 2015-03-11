@@ -83,7 +83,7 @@ This section describes the different ways to introduce a piece of web content in
         * By selecting a Global vocabulary in Personalization
         * Asset Publisher looks at the categories on the user viewing the page from the selected vocabulary
         * Asset Publisher then displays other assets that have the same categories applied to them as to the user
-iv.	The article is displayed in an Asset publisher portlet on any site as long as it is scoped and configured to display content from the site where the content is stored and based on categorization
+    4. The article is displayed in an Asset publisher portlet on any site as long as it is scoped and configured to display content from the site where the content is stored and based on categorization
 
 
 ## Publish content that can appear on one page, then downstream content managers can choose to display the content in a site or modify the content before it is displayed
