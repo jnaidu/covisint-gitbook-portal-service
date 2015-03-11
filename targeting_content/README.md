@@ -54,11 +54,11 @@ This section describes the different ways to introduce a piece of web content in
     1. Site Member/Role
         * Membership driven by Service Package
     2. Guest
-d.	Categories are applied to the Web Content Article
-e.	Asset Publisher is configured to display Web Content Articles:
-i.	Scope includes site or repository where the Web Content is located
-ii.	Categories are configured on the Asset Publisher to include the Web Content Article in the display criteria 
-iii.	The article is displayed in an Asset publisher portlet on any site as long as it is scoped and configured to display content from the site where the content is stored and based on categorization
+4. Categories are applied to the Web Content Article
+5. Asset Publisher is configured to display Web Content Articles:
+    1. Scope includes site or repository where the Web Content is located
+    2. Categories are configured on the Asset Publisher to include the Web Content Article in the display criteria 
+    3. The article is displayed in an Asset publisher portlet on any site as long as it is scoped and configured to display content from the site where the content is stored and based on categorization
 
 
 ## Publish content on a page based on personalization or preference
