@@ -31,9 +31,9 @@ This section describes the different ways to introduce a piece of web content in
     * Ease of Administration: Simple
 1. Content managers can publish content that is immediately available to all members of one particular site
 2. A web content article can be created in a specific site 
-i.	Site to which all the members have access
-ii.	Content can be syndicated to another site
-1.	Only members of the site where the content is published will see it
+    1. Site to which all the members have access
+    2. Content can be syndicated to another site
+        * Only members of the site where the content is published will see it
 c.	The content is permissioned to a role shared by the site members
 i.	Site Member
 1.	Membership driven by Service Package
