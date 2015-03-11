@@ -69,7 +69,7 @@ You can upload the entire site via a LAR file.
 This section illustrates how you can import a portlet using the portlet-specific LAR file.
 ### Steps:
 1. Log into the Covisint App Cloud Developer Portal.
-2. Click **Go to** and **Control Panel**.
+2. Click **Go to** and **Control Panel**.  
 ![](up-1.png)
 3. Click **Plugins Installation**.    
 ![](up-2.png)
