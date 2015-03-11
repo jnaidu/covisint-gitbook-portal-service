@@ -7,25 +7,25 @@
     * The modules de-couple the presentation layer from the business logic and integration layers.  By enabling a mock JSON object as a placeholder, user interface (UI) and back-end services development take place in parallel, significantly reducing time to delivery over traditional development
     * With only basic JavaScript skills, almost any user can visualize those application functions as HTML5 applications, right from the CMS. A catalog of functions and objects, along with how to use them are displayed to the user through console.
 5. **Content Delivery Network**: An optional add-on to improve page performance by enabling distributed caching over 125,000 global points of presence and proprietary routing algorithms.  Additional options for CDN enhancements exist beyond the items listed in the standard pricing.  Contact a solution architect for additional details.
-6.	Content Management System - A Content Management System (CMS) is a computer program that allows publishing, editing and modifying content as well as maintenance from a central interface. 
-7.	Site – A site is the basic unit for content management and collaboration.  
-a.	Site Types – Sites can be:
-i.	Open – Users can join or leave sites without any approval required
-ii.	Restricted – Users request access to sites and access is granted by a Site administrator
-iii.	Private – Users can access Private Sites by invitation only
-b.	Site Content – Each site has an independent set of content
-i.	Web Content
-ii.	Documents and Media
-iii.	Blog
-iv.	Wiki
-v.	Forum
-vi.	Knowledge Base
-vii.	Local taxonomy
-viii.	Site Pages
-c.	Site Roles – Each Site has an independent set of users that can be granted granular access to Site content
-i.	Site Administrator – Site administrator is a standard role across all sites that has omni-administrative privileges for a Site, including content administration, page and site administration, and user access administration
-ii.	Site Member – Site member is a standard role across all sites with basic access to authenticated site content and collaboration functionality
-iii.	Site Teams – Site Teams are ad hoc roles that can be created on an individual site
+6. **Content Management System** - A Content Management System (CMS) is a computer program that allows publishing, editing and modifying content as well as maintenance from a central interface. 
+7. **Site** – A site is the basic unit for content management and collaboration.  
+    * Site Types – Sites can be:
+        1. Open – Users can join or leave sites without any approval required
+        2. Restricted – Users request access to sites and access is granted by a Site administrator
+        3. Private – Users can access Private Sites by invitation only
+    * Site Content – Each site has an independent set of content
+        1. Web Content
+        2. Documents and Media
+        3. Blog
+        4. Wiki
+        5. Forum
+        6. Knowledge Base
+        7. Local taxonomy
+        8. Site Pages
+    * Site Roles – Each Site has an independent set of users that can be granted granular access to Site content
+        1. Site Administrator – Site administrator is a standard role across all sites that has omni-administrative privileges for a Site, including content administration, page and site administration, and user access administration
+        2. Site Member – Site member is a standard role across all sites with basic access to authenticated site content and collaboration functionality
+        3. Site Teams – Site Teams are ad hoc roles that can be created on an individual site
 8.	Global Site – A collection of assets that can be leveraged across all sites in a portal.  Global assets are subject to their own workflow.  The Global taxonomy is used to drive personalization across the portal.
 9.	User Site – Each User may be provisioned with a User Site that can be exposed as part of the Portal.  User Sites include all of the capabilities of a standard Site
 10.	Page – An unlimited number of web pages can be created the portal
