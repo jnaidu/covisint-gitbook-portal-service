@@ -20,11 +20,11 @@ You can upload the web content via a LAR file.
 You can upload documents and media via a LAR file.
 ### Steps:
 1. Log in to your site as a Portal Administrator.
-2. Under your site section, click **Documents and Media**.
+2. Under your site section, click **Documents and Media**.          
 ![](udm-1.png)
-3. On the right corner, click ![](uwc-click.png) and select **Export/Import**.
+3. On the right corner, click ![](uwc-click.png) and select **Export/Import**.      
 ![](udm-2.png)
-4. Click **Public Pages** and then click **Import**.
+4. Click **Public Pages** and then click **Import**.    
 ![](udm-3.png)
 5. Choose the LAR file and then click **Import**.
 ![](udm-4.png)
