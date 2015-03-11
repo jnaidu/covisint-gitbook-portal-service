@@ -8,11 +8,11 @@ Users can be granted different roles that have the ability to place one or more 
 You can upload the web content via a LAR file.
 ### Steps:
 1. Log in to your site as a Portal Administrator.
-2. Under your site section, click **Web Content**.
+2. Under your site section, click **Web Content**.  
 ![](uwc-1.png)
-3. On the right corner, click![](uwc-click.png)and select **Export/Import**.
+3. On the right corner, click![](uwc-click.png)and select **Export/Import**.    
 ![](uwc-2.png)
-4. Click the **Import** tab, select   to select the desired LAR file. Then, click **Import**.
+4. Click the **Import** tab, select   to select the desired LAR file. Then, click    **Import**.
 ![](uwc-3.png)
 5. You have successfully imported the Web Content.
 
