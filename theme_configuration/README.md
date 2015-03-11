@@ -35,4 +35,5 @@ The following settings can be configured:
 * **Support IE8 Responsiveness (Default value: false)** – This setting controls whether the page will load an additional CSS file to support responsive behavior in IE8.  If IE8 is not a required browser, this setting can be used to prevent the additional CSS from being loaded, improving page performance.
 * **IE8 Stylesheet (Default value: /documents/null/ie8.css)** – This setting controls the URL to the CSS file for IE8 responsive behavior.
 * **Include Search (Default value: true)** – This setting controls whether the search box is displayed on a page or not.  The search box appears on the top right of the Top Hat section of the page.
-The following elements can be configured in the theme CSS Override.  The CSS Override is based on a structure and template.  The default values in the structure can be set using the standard functionality.  The Theme is designed to look for content based on a structure named STYLESHEET_OVERRIDE and for the Footer based on a structure named FOOTER_CONTENT.  The list of items that can be configured are outlined below and the values entered are HTML code for the various elements (Hexadecimal values for colors, em size for font sizes, and image paths for images):
+
+## Theme
