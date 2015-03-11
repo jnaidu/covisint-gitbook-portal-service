@@ -26,7 +26,7 @@
         1. Site Administrator – Site administrator is a standard role across all sites that has omni-administrative privileges for a Site, including content administration, page and site administration, and user access administration
         2. Site Member – Site member is a standard role across all sites with basic access to authenticated site content and collaboration functionality
         3. Site Teams – Site Teams are ad hoc roles that can be created on an individual site
-8.	Global Site – A collection of assets that can be leveraged across all sites in a portal.  Global assets are subject to their own workflow.  The Global taxonomy is used to drive personalization across the portal.
+8. **Global Site** – A collection of assets that can be leveraged across all sites in a portal.  Global assets are subject to their own workflow.  The Global taxonomy is used to drive personalization across the portal.
 9.	User Site – Each User may be provisioned with a User Site that can be exposed as part of the Portal.  User Sites include all of the capabilities of a standard Site
 10.	Page – An unlimited number of web pages can be created the portal
 a.	Page Types
