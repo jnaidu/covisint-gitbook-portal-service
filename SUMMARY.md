@@ -10,6 +10,5 @@
    * [Managing Sites](managing_sites_and_pages/managing_sites.md)
    * [Managing Pages](managing_sites_and_pages/managing_pages.md)
 * [Publishing Content](publishing_content/README.md)
-* [Targeting Content](targeting_content/README.md)
 * [Controlling Access to and Audience for Content](controlling_access_to_and_audience_for_content/README.md)
 
