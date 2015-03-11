@@ -26,6 +26,23 @@ This section describes the different ways to introduce a piece of web content in
 
 
 ## Publish content on a page that is displayed to users of just one customer
+    * This is also a simple way to publish content.
+    * Ease of Publishing: Simple
+    * Ease of Administration: Simple
+1. Content managers can publish content that is immediately available to all members of one particular site
+2. A web content article can be created in a specific site 
+i.	Site to which all the members have access
+ii.	Content can be syndicated to another site
+1.	Only members of the site where the content is published will see it
+c.	The content is permissioned to a role shared by the site members
+i.	Site Member
+1.	Membership driven by Service Package
+d.	The article is displayed either in:
+i.	Web content display portlet on the Site where the content is stored
+1.	Global content can be displayed on any page
+ii.	Asset publisher portlet on any site as long as it is scoped to display content from the site where the content is stored
+
+
 
 ## Publish content on a page that is displayed to users based on context
 
