@@ -8,11 +8,11 @@ Users can be granted different roles that have the ability to place one or more 
 You can upload the web content via a LAR file.
 ### Steps:
 1. Log in to your site as a Portal Administrator.
-2. Under your site section, click **Web Content**.
+2. Under your site section, click **Web Content**.		
 ![](uwc-1.png)
-3. On the right corner, click ![](uwc-click.png)and select **Export/Import**.
+3. On the right corner, click ![](uwc-click.png)and select **Export/Import**.		
 ![](uwc-2.png)
-4. Click the **Import** tab, select **Choose File** to select the desired LAR file. Then, click    **Import**.
+4. Click the **Import** tab, select **Choose File** to select the desired LAR file. Then, click    **Import**.		
 ![](uwc-3.png)
 5. You have successfully imported the Web Content.
 
@@ -20,15 +20,15 @@ You can upload the web content via a LAR file.
 You can upload documents and media via a LAR file.
 ### Steps:
 1. Log in to your site as a Portal Administrator.
-2. Under your site section, click **Documents and Media**.
+2. Under your site section, click **Documents and Media**.		
 ![](udm-1.png)
-3. On the right corner, click ![](uwc-click.png) and select **Export/Import**.
+3. On the right corner, click ![](uwc-click.png) and select **Export/Import**.		
 ![](udm-2.png)
-4. Click **Public Pages** and then click **Import**.
+4. Click **Public Pages** and then click **Import**.		
 ![](udm-3.png)
-5. Choose the LAR file and then click **Import**.
+5. Choose the LAR file and then click **Import**.		
 ![](udm-4.png)
-6. Click the Import tab, select **Choose File** to select the desired LAR file. Then, click **Import**.
+6. Click the Import tab, select **Choose File** to select the desired LAR file. Then, click **Import**.		
 ![](udm-5.png)
 7. You have successfully imported documents and media.
 
@@ -36,11 +36,11 @@ You can upload documents and media via a LAR file.
 You can upload the entire site via a LAR file.
 ### Steps:
 1.	Log in to your site as a Portal Administrator.
-2.	Under your site section, click **Web Content**.
+2.	Under your site section, click **Web Content**.		
 ![](ues-1.png)
-3.	On the right corner, click ![](uwc-click.png) and select **Export/Import**.
+3.	On the right corner, click ![](uwc-click.png) and select **Export/Import**.		
 ![](ues-2.png)
-4.	Click the Import tab, select **Choose File** to select the desired LAR file. Then, click Import.
+4.	Click the Import tab, select **Choose File** to select the desired LAR file. Then, click Import.		
 ![](ues-3.png)
 5.	You have successfully imported the Web Content.
 
