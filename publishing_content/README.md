@@ -32,7 +32,6 @@ You can upload documents and media via a LAR file.
 ![](udm-5.png)
 7. You have successfully imported documents and media.
 
-
 ## Upload Entire Site
 
 ## Upload a Portlet
