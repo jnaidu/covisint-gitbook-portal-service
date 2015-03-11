@@ -104,5 +104,5 @@ The following business rules describe how Theme Inheritance works when enabled a
         2. If there is an override web content article in the web content repository for Site A and nowhere else in the portal, Site A will have the style overrides of that web content article.
         3. If there is an override web content article in the Org Site where the user is a named, individual member of the Organization, (“Site B”) then the style overrides of the web content article in Site B will NOT be applied to Site A when the user visits site A.
         4. If there is not an override web content article in the Org Site where the user is a named, individual member of the Organization, (“Site B”) but there is an override web content in the hierarchy of Orgs where the user is a named individual member (“Site C”)then the style overrides of the web content article in Site C will NOT be applied to Site A when the user visits site A.
-d.	The check box for “Enable Theme Inheritance” is NOT checked by default.
+    * The check box for “Enable Theme Inheritance” is NOT checked by default.
 
