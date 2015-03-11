@@ -28,36 +28,36 @@
         3. Site Teams – Site Teams are ad hoc roles that can be created on an individual site
 8. **Global Site** – A collection of assets that can be leveraged across all sites in a portal.  Global assets are subject to their own workflow. The Global taxonomy is used to drive personalization across the portal.
 9. **User Site** – Each User may be provisioned with a User Site that can be exposed as part of the Portal.  User Sites include all of the capabilities of a standard Site
-10.	Page – An unlimited number of web pages can be created the portal
-a.	Page Types
-i.	Public Pages – Public pages can be exposed to unauthenticated users (Guest) or authenticated users; Users without any role on a site can still see public pages
-ii.	Private Pages – Private pages can only be seen by users with at least one Site role
-b.	User Pages – Users can enable private pages and public pages as part of their profile that can include all of the Social Network portlets
-c.	Site Pages – Each Site has its own set of pages, public and private.  Pages can be individually styled with one of the available page layouts, a unique theme, css, and JavaScript.   
-d.	Page Layout – A predefined page format that governs the orientation of portlets on a page.  Page Templates can be used to control which sections of a page can be customized by end users
-11.	Theme – Each Covisint portal includes 1 standard theme. Customers can customize the look and feel of the theme according to Covisint’s published Style Guide.  The default Covisint theme has preconfigured responsive and adaptive behaviors to function on a wide array of devices and form factors.
-12.	Application – A piece of software designed to help the user to perform specific tasks, typically deployed in the portal as a portlet or exposed through the CMS as JavaScript via the Module Communication Framework.
-13.	Control Panel – The core set of functions to set up and manage the virtual portal environment are fully controlled from the UX/UI
-14.	Group – A Group is used to aggregate a bundle of Regular Roles, Site Roles, or Team Roles in the Portal.  Each CIS Service Package is tied to a Group in Portal.  
-15.	Roles – Roles are sets of privileges in Portal.  There are three types of Role in Portal
-16.	Search – Search is Covisint’s implementation of enterprise search in the portal. Covisint’s search is highly differentiated with features such as auto-complete search terms, multi-language support, faceted search, configurable scope and interaction with asset publisher.
-17.	Guided / Queryless Search – This is a set of functionality that allows the site to respond to a user and provide information back to the user based on a combination of user profile attributes and context. 
-18.	Entity – Either identity provider (IDP) or service provider (SP).
-19.	Identity – Collect of information describing a user, person, or machine.
-20.	Service Provider (SP) – An entity that provides services to principals or other system entities in a federation. Covisint maintains a list of supported catalog applications that defines whether an application is Catalog or Non-catalog.  Standard SPs must support one of the following protocols when CIS acts as an IDP in the federation:
-•	SAML 1.1
-•	SAML 2.x
-•	OAuth 2.0
-•	OpenID 2.0
-•	OpenID Connect 1.0
-•	WS-Federation (Passive profile)
-21.	Identity Provider (IDP) – An entity that creates, maintains, and manages identity information for principals and provides principal authentication to other service providers within a federation, such as with web browser profiles. CIS supports the following standard protocols when acting as an IDP:
-•	SAML 1.1
-•	SAML 2.x
-•	OAuth 2.0
-•	OpenID 2.0
-•	WS-Federation
-•	Facebook Connect
+10.	**Page** – An unlimited number of web pages can be created the portal
+    * Page Types
+        1. Public Pages – Public pages can be exposed to unauthenticated users (Guest) or authenticated users; Users without any role on a site can still see public pages
+        2. Private Pages – Private pages can only be seen by users with at least one Site role
+    * User Pages – Users can enable private pages and public pages as part of their profile that can include all of the Social Network portlets
+    * Site Pages – Each Site has its own set of pages, public and private.  Pages can be individually styled with one of the available page layouts, a unique theme, css, and JavaScript.   
+    * Page Layout – A predefined page format that governs the orientation of portlets on a page.  Page Templates can be used to control which sections of a page can be customized by end users
+11. **Theme** – Each Covisint portal includes 1 standard theme. Customers can customize the look and feel of the theme according to Covisint’s published Style Guide.  The default Covisint theme has preconfigured responsive and adaptive behaviors to function on a wide array of devices and form factors.
+12. **Application** – A piece of software designed to help the user to perform specific tasks, typically deployed in the portal as a portlet or exposed through the CMS as JavaScript via the Module Communication Framework.
+13.	**Control Panel** – The core set of functions to set up and manage the virtual portal environment are fully controlled from the UX/UI
+14.	**Group** – A Group is used to aggregate a bundle of Regular Roles, Site Roles, or Team Roles in the Portal.  Each CIS Service Package is tied to a Group in Portal.  
+15.	**Roles** – Roles are sets of privileges in Portal.  There are three types of Role in Portal
+16.	**Search** – Search is Covisint’s implementation of enterprise search in the portal. Covisint’s search is highly differentiated with features such as auto-complete search terms, multi-language support, faceted search, configurable scope and interaction with asset publisher.
+17.	**Guided / Queryless Search** – This is a set of functionality that allows the site to respond to a user and provide information back to the user based on a combination of user profile attributes and context. 
+18.	**Entity** – Either identity provider (IDP) or service provider (SP).
+19.	**Identity** – Collect of information describing a user, person, or machine.
+20.	**Service Provider (SP)** – An entity that provides services to principals or other system entities in a federation. Covisint maintains a list of supported catalog applications that defines whether an application is Catalog or Non-catalog.  Standard SPs must support one of the following protocols when CIS acts as an IDP in the federation:
+    * SAML 1.1
+    * SAML 2.x
+    * OAuth 2.0
+    * OpenID 2.0
+    * OpenID Connect 1.0
+    * WS-Federation (Passive profile)
+21. **Identity Provider (IDP)** – An entity that creates, maintains, and manages identity information for principals and provides principal authentication to other service providers within a federation, such as with web browser profiles. CIS supports the following standard protocols when acting as an IDP:
+    * SAML 1.1
+    * SAML 2.x
+    * OAuth 2.0
+    * OpenID 2.0
+    * WS-Federation
+    * Facebook Connect
 22.	Relying Party (RP) – Def 1: Synonym for service provider. Def 2: The peer in an IDP / SP exchange, such that, the relying party of the IDP is the SP and vice-versa.
 23.	Service – Any web-based content that needs to be protected.
 24.	Application – Synonym for service or SP.
