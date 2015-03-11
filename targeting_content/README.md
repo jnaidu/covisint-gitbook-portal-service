@@ -24,7 +24,6 @@ This section describes the different ways to introduce a piece of web content in
     2. Global content can be displayed on any page
     3. Asset publisher portlet on any site as long as it is scoped to display content from the site where the content is stored
 
-
 ## Publish content on a page that is displayed to users of just one customer
     * This is also a simple way to publish content.
     * Ease of Publishing: Simple
@@ -42,9 +41,25 @@ This section describes the different ways to introduce a piece of web content in
         * Global content can be displayed on any page
     2. Asset publisher portlet on any site as long as it is scoped to display content from the site where the content is stored
 
-
-
 ## Publish content on a page that is displayed to users based on context
+    * This is also a simple way to publish content.
+    * Ease of Publishing: Simple
+    * Ease of Administration: Simple
+1. Content managers can publish content that is displayed in a particular context
+2. A web content article can be created in a location where users can access it 
+    1. Global content repository
+    2. Site to which the target users have access
+        * Content can be syndicated to another site
+3. The content is permissioned appropriately
+    1. Site Member/Role
+        * Membership driven by Service Package
+    2. Guest
+d.	Categories are applied to the Web Content Article
+e.	Asset Publisher is configured to display Web Content Articles:
+i.	Scope includes site or repository where the Web Content is located
+ii.	Categories are configured on the Asset Publisher to include the Web Content Article in the display criteria 
+iii.	The article is displayed in an Asset publisher portlet on any site as long as it is scoped and configured to display content from the site where the content is stored and based on categorization
+
 
 ## Publish content on a page based on personalization or preference
 
