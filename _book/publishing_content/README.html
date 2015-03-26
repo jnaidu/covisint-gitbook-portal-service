@@ -18,7 +18,7 @@
     
     
     
-    <link rel="next" href="../targeting_content/README.html" />
+    <link rel="next" href="../controlling_access_to_and_audience_for_content/README.html" />
     
     
     <link rel="prev" href="../managing_sites_and_pages/managing_pages.html" />
@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="3" data-basepath=".." data-revision="1426084028551">
+    <div class="book"  data-level="3" data-basepath=".." data-revision="1426193391513">
     
 
 <div class="book-summary">
@@ -221,15 +221,15 @@
         </li>
     
         
-        <li class="chapter " data-level="4" data-path="targeting_content/README.html">
+        <li class="chapter " data-level="4" data-path="controlling_access_to_and_audience_for_content/README.html">
             
                 
-                    <a href="../targeting_content/README.html">
+                    <a href="../controlling_access_to_and_audience_for_content/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.</b>
                         
-                         Targeting Content
+                         Controlling Access to and Audience for Content
                     </a>
                 
             
@@ -237,15 +237,31 @@
         </li>
     
         
-        <li class="chapter " data-level="5" data-path="controlling_access_to_and_audience_for_content/README.html">
+        <li class="chapter " data-level="5" data-path="theme_configuration/README.html">
             
                 
-                    <a href="../controlling_access_to_and_audience_for_content/README.html">
+                    <a href="../theme_configuration/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>5.</b>
                         
-                         Controlling Access to and Audience for Content
+                         Theme Configuration
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6" data-path="glossary_of_terms.html/README.md">
+            
+                
+                    <a href="../glossary_of_terms.html/README.md">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                         Glossary of Terms
                     </a>
                 
             
@@ -341,23 +357,48 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_3036">
+                    <section class="normal" id="section-gitbook_12">
                     
                         <h1 id="publishing-content">Publishing Content</h1>
 <p>This section illustrates how to add a portlet, and other types of content. You can upload three types of contents via a LAR file 1) Web Content 2) Documents and Media, and 3) Entire Site. Be careful not to confuse portlet-specific .lar files with site-specific .lar files.</p>
 <h2 id="adding-a-portlet">Adding a Portlet</h2>
 <p>Users can be granted different roles that have the ability to place one or more portlets on a page.  In addition, Pages can be configured so that specific roles can only place portlets on a specific section of a page.  We also have the ability to add preconfigured portlets to a library, from which the portlets can be dropped on a page.</p>
+<h3 id="steps">Steps:</h3>
+<ol>
+<li>Log into portal as a content administrator.</li>
+<li>Adding and manipulating portlets requires Edit Controls to be enabled.  Check the box in the dock bar.<ul>
+<li>Note that the dockbar only appears if a user has the ability to perform the functions on the dockbar in the context of the page the user is viewing</li>
+</ul>
+</li>
+<li>On the dockbar, click <strong>Add</strong>.</li>
+<li>If the portlet you want to add is on the list, add it to the page.</li>
+<li>If it is not on the list, click <strong>more</strong>.</li>
+<li>When the add portlets modal appears, type the first few letters of the portlet in the search field.</li>
+<li>There are two ways to add the portlet to the page:<ul>
+<li>Click the <strong>Add</strong> button; this will add the portlet to the page in the top left most  position.</li>
+<li>Drag and drop the portlet on a page.</li>
+</ul>
+</li>
+<li>Some portlets are unique application portlets that can only be added once to a page (Ex. Documents and Media).</li>
+<li>Most portlets are instanceable, meaning that they can be added more than once on any page (Ex. Asset Publisher, Web Content Display).</li>
+<li>When a portlet is added to a page, it can be added to any pane in a page layout<ul>
+<li>A user must have the permission to add a portlet to a pane</li>
+<li>If a user has the abiltity to add portlets, the default is to be able to add a portlet anywhere on a page.</li>
+</ul>
+</li>
+<li>A portlet will size to 100% of the width of a pane in a page layout and will to 100% of the portlet height.</li>
+<li>Portlet borders can be enabled and disabled.</li>
+<li>Portlets can have custom titles; Titles can be edited by clicking on them.</li>
+<li>Modifying the permissions to a portlet as defined in the &quot;Controlling Access to and Audience for Content&quot; section.</li>
+</ol>
 <h2 id="upload-web-content">Upload Web Content</h2>
 <p>You can upload the web content via a LAR file.</p>
 <h3 id="steps">Steps:</h3>
 <ol>
 <li>Log in to your site as a Portal Administrator.</li>
-<li>Under your site section, click <strong>Web Content</strong>.
-<img src="uwc-1.png" alt=""></li>
-<li>On the right corner, click <img src="uwc-click.png" alt="">and select <strong>Export/Import</strong>.
-<img src="uwc-2.png" alt=""></li>
-<li>Click the <strong>Import</strong> tab, select <strong>Choose File</strong> to select the desired LAR file. Then, click    <strong>Import</strong>.
-<img src="uwc-3.png" alt=""></li>
+<li>Under your site section, click <strong>Web Content</strong>.<br><img src="uwc-1.png" alt=""></li>
+<li>On the right corner, click <img src="uwc-click.png" alt="">and select <strong>Export/Import</strong>.<br><img src="uwc-2.png" alt=""></li>
+<li>Click the <strong>Import</strong> tab, select <strong>Choose File</strong> to select the desired LAR file. Then, click <strong>Import</strong>.<br><img src="uwc-3.png" alt=""></li>
 <li>You have successfully imported the Web Content.</li>
 </ol>
 <h2 id="upload-documents-and-media">Upload Documents and Media</h2>
@@ -365,20 +406,33 @@
 <h3 id="steps">Steps:</h3>
 <ol>
 <li>Log in to your site as a Portal Administrator.</li>
-<li>Under your site section, click <strong>Documents and Media</strong>.
-<img src="udm-1.png" alt=""></li>
-<li>On the right corner, click <img src="uwc-click.png" alt=""> and select <strong>Export/Import</strong>.
-<img src="udm-2.png" alt=""></li>
-<li>Click <strong>Public Pages</strong> and then click <strong>Import</strong>.
-<img src="udm-3.png" alt=""></li>
-<li>Choose the LAR file and then click <strong>Import</strong>.
-<img src="udm-4.png" alt=""></li>
-<li>Click the Import tab, select <strong>Choose File</strong> to select the desired LAR file. Then, click <strong>Import</strong>.
-<img src="udm-5.png" alt=""></li>
+<li>Under your site section, click <strong>Documents and Media</strong>.<br><img src="udm-1.png" alt=""></li>
+<li>On the right corner, click <img src="uwc-click.png" alt=""> and select <strong>Export/Import</strong>.<br><img src="udm-2.png" alt=""></li>
+<li>Click <strong>Public Pages</strong> and then click <strong>Import</strong>.<br><img src="udm-3.png" alt=""></li>
+<li>Choose the LAR file and then click <strong>Import</strong>.<br><img src="udm-4.png" alt=""></li>
+<li>Click the Import tab, select <strong>Choose File</strong> to select the desired LAR file. Then, click <strong>Import</strong>.<br><img src="udm-5.png" alt=""></li>
 <li>You have successfully imported documents and media.</li>
 </ol>
 <h2 id="upload-entire-site">Upload Entire Site</h2>
+<p>You can upload the entire site via a LAR file.</p>
+<h3 id="steps">Steps:</h3>
+<ol>
+<li>Log in to your site as a Portal Administrator.</li>
+<li>Under your site section, click <strong>Web Content</strong>.<br><img src="ues-1.png" alt=""></li>
+<li>On the right corner, click <img src="uwc-click.png" alt=""> and select <strong>Export/Import</strong>.<br><img src="ues-2.png" alt=""></li>
+<li>Click the Import tab, select <strong>Choose File</strong> to select the desired LAR file. Then, click Import.<br><img src="ues-3.png" alt=""></li>
+<li>You have successfully imported the Web Content.</li>
+</ol>
 <h2 id="upload-a-portlet">Upload a Portlet</h2>
+<p>This section illustrates how you can import a portlet using the portlet-specific LAR file.</p>
+<h3 id="steps">Steps:</h3>
+<ol>
+<li>Log into the Covisint App Cloud Developer Portal.</li>
+<li>Click <strong>Go to</strong> and <strong>Control Panel</strong>.<br><img src="up-1.png" alt=""></li>
+<li>Click <strong>Plugins Installation</strong>.<br><img src="up-2.png" alt=""></li>
+<li>Click <strong>Private Plugin Installer</strong>.<br><img src="up-3.png" alt=""></li>
+<li>Click <strong>Upload File</strong>, and then choose a WAR file to install a layout template, and click <strong>Install</strong>.<br><img src="up-4.png" alt=""></li>
+</ol>
 
                     
                     </section>
@@ -392,7 +446,7 @@
         <a href="../managing_sites_and_pages/managing_pages.html" class="navigation navigation-prev " aria-label="Previous page: Managing Pages"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../targeting_content/README.html" class="navigation navigation-next " aria-label="Next page: Targeting Content"><i class="fa fa-angle-right"></i></a>
+        <a href="../controlling_access_to_and_audience_for_content/README.html" class="navigation navigation-next " aria-label="Next page: Controlling Access to and Audience for Content"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

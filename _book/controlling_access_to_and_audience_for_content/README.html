@@ -18,8 +18,10 @@
     
     
     
+    <link rel="next" href="../theme_configuration/README.html" />
     
-    <link rel="prev" href="../targeting_content/README.html" />
+    
+    <link rel="prev" href="../publishing_content/README.html" />
     
 
         
@@ -31,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="5" data-basepath=".." data-revision="1426084028551">
+    <div class="book"  data-level="4" data-basepath=".." data-revision="1426193391513">
     
 
 <div class="book-summary">
@@ -219,15 +221,15 @@
         </li>
     
         
-        <li class="chapter " data-level="4" data-path="targeting_content/README.html">
+        <li class="chapter active" data-level="4" data-path="controlling_access_to_and_audience_for_content/README.html">
             
                 
-                    <a href="../targeting_content/README.html">
+                    <a href="../controlling_access_to_and_audience_for_content/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.</b>
                         
-                         Targeting Content
+                         Controlling Access to and Audience for Content
                     </a>
                 
             
@@ -235,15 +237,31 @@
         </li>
     
         
-        <li class="chapter active" data-level="5" data-path="controlling_access_to_and_audience_for_content/README.html">
+        <li class="chapter " data-level="5" data-path="theme_configuration/README.html">
             
                 
-                    <a href="../controlling_access_to_and_audience_for_content/README.html">
+                    <a href="../theme_configuration/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>5.</b>
                         
-                         Controlling Access to and Audience for Content
+                         Theme Configuration
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6" data-path="glossary_of_terms.html/README.md">
+            
+                
+                    <a href="../glossary_of_terms.html/README.md">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                         Glossary of Terms
                     </a>
                 
             
@@ -339,9 +357,206 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_3028">
+                    <section class="normal" id="section-gitbook_6">
                     
                         <h1 id="controlling-access-to-and-audience-for-content">Controlling Access to and Audience for Content</h1>
+<p>This section describes how to provision a page or portlet with a Service Package or other role.</p>
+<h2 id="mapping-a-role-to-a-service-package">Mapping a Role to a Service Package</h2>
+<p>There are four types of Role:</p>
+<ol>
+<li>Regular Role – A Regular Role has the same set of privileges across the entire portal, including all sites and organizations.  Giving a privilege to a regular role has the broadest impact</li>
+<li>Organizational Role – An Organizational Role will give a user a set of privileges in any Organization where the user has that role. An Organizational Role can also be mapped to a Site Role; Note that Organizational Roles cannot be mapped to Service Packages; Organizational Roles can only be granted to Organization Members on specific Organizations</li>
+<li>Site Role – A Site Role will give a user a set of privileges in any Site where the user has that role</li>
+<li>Team Role – A Team Role will give a user a set of privileges in the Site where the user has that role; A Team Role is a role specific to only one Site</li>
+</ol>
+<h2 id="to-map-a-role-to-a-service-package-follow-these-steps">To map a role to a service package, follow these steps:</h2>
+<ol>
+<li>Log on to the portal as Portal administrator</li>
+<li>Navigate to the control Panel</li>
+<li>Under the Portal section, click on Roles</li>
+<li>Find the role to which you want to map the service package<ol>
+<li>Adding and configuring new roles is an advanced task and is not covered in this section</li>
+<li>You can add a new role solely for the purpose of mapping a service package to a Role easily</li>
+<li>Granting additional Portal privileges to the role is more complicated</li>
+<li>To add a Role for mapping to a Service Package, Click Add, then select the type of role you want</li>
+<li>Type a name, title and description, then click Save</li>
+</ol>
+</li>
+<li>Click the Actions button next to the Role and select Assign Members</li>
+<li>Click User Groups</li>
+<li>Click available</li>
+<li>Check the box next to the User Group that corresponds to the Service Package you want to map to the Role</li>
+<li>Click Update Associations</li>
+</ol>
+<p>On any asset (portlet, page, or piece of content, etc.)  the role will now be available and mapped to the service package when you modify the Permissions for the asset.  For all assets, when editing the asset, you will see a permissions button prominently located.  Some asset types have a shortcut for permissions when the asset is created, then provides access to the complete set of permissions when the asset is edited.  The items in the shortcut menu is configurable or the full menu can be added in both locations.  On portlets, permissions are located on the Portlet Configuration menu, which can be easily accessed when edit controls are enabled.  On a Portlet, click the wrench icon and select Configuration.</p>
+<h2 id="targeting-content">Targeting Content</h2>
+<p>This section describes the different ways to introduce a piece of web content into an environment. There are several ways to deliver content:</p>
+<ol>
+<li>Publish content on a single page that is displayed to all users</li>
+<li>Publish content on a page that is displayed to users of just one customer</li>
+<li>Publish content on a page that is displayed to users based on context</li>
+<li>Publish content on a page based on personalization or preference</li>
+<li>Publish content that can appear on one page, then downstream content managers can choose to display the content in a site or modify the content before it is displayed</li>
+<li>Content is secured so that only one or more groups or roles can see the content</li>
+</ol>
+<h3 id="publish-content-on-a-single-page-that-is-displayed-to-all-users">Publish content on a single page that is displayed to all users</h3>
+<pre><code>* This is the most simple way to publish content.
+* Ease of Publishing: Simple
+* Ease of Administration: Simple
+</code></pre><ol>
+<li>Content managers can publish content that is immediately available to all users.</li>
+<li>A web content article can be created in a location where all users have access to the content <ol>
+<li>Global content repository</li>
+<li>Site to which all users have access</li>
+</ol>
+</li>
+<li>The content is permissioned to a role shared by all users<ol>
+<li>Power User</li>
+<li>User</li>
+<li>Guest</li>
+</ol>
+</li>
+<li>The article is displayed either in:<ol>
+<li>Web content display portlet on the Site where the content is stored or on the page where the content is to be displayed</li>
+<li>Global content can be displayed on any page</li>
+<li>Asset publisher portlet on any site as long as it is scoped to display content from the site where the content is stored</li>
+</ol>
+</li>
+</ol>
+<h3 id="publish-content-on-a-page-that-is-displayed-to-users-of-just-one-customer">Publish content on a page that is displayed to users of just one customer</h3>
+<pre><code>* This is also a simple way to publish content.
+* Ease of Publishing: Simple
+* Ease of Administration: Simple
+</code></pre><ol>
+<li>Content managers can publish content that is immediately available to all members of one particular site</li>
+<li>A web content article can be created in a specific site <ol>
+<li>Site to which all the members have access</li>
+<li>Content can be syndicated to another site<ul>
+<li>Only members of the site where the content is published will see it</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>The content is permissioned to a role shared by the site members<ol>
+<li>Site Member<ul>
+<li>Membership driven by Service Package</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>The article is displayed either in:<ol>
+<li>Web content display portlet on the Site where the content is stored<ul>
+<li>Global content can be displayed on any page</li>
+</ul>
+</li>
+<li>Asset publisher portlet on any site as long as it is scoped to display content from the site where the content is stored</li>
+</ol>
+</li>
+</ol>
+<h3 id="publish-content-on-a-page-that-is-displayed-to-users-based-on-context">Publish content on a page that is displayed to users based on context</h3>
+<pre><code>* This is also a simple way to publish content.
+* Ease of Publishing: Simple
+* Ease of Administration: Simple
+</code></pre><ol>
+<li>Content managers can publish content that is displayed in a particular context</li>
+<li>A web content article can be created in a location where users can access it <ol>
+<li>Global content repository</li>
+<li>Site to which the target users have access<ul>
+<li>Content can be syndicated to another site</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>The content is permissioned appropriately<ol>
+<li>Site Member/Role<ul>
+<li>Membership driven by Service Package</li>
+</ul>
+</li>
+<li>Guest</li>
+</ol>
+</li>
+<li>Categories are applied to the Web Content Article</li>
+<li>Asset Publisher is configured to display Web Content Articles:<ol>
+<li>Scope includes site or repository where the Web Content is located</li>
+<li>Categories are configured on the Asset Publisher to include the Web Content Article in the display criteria </li>
+<li>The article is displayed in an Asset publisher portlet on any site as long as it is scoped and configured to display content from the site where the content is stored and based on categorization</li>
+</ol>
+</li>
+</ol>
+<h3 id="publish-content-on-a-page-based-on-personalization-or-preference">Publish content on a page based on personalization or preference</h3>
+<pre><code>* This is also a simple way to publish content.
+* Ease of Publishing: Simple
+* Ease of Administration: Medium
+</code></pre><ol>
+<li>We do not have the function to apply categories to users in bulk in the POC<ol>
+<li>Categories can be applied to individual users</li>
+</ol>
+</li>
+<li>Content managers can publish content that is displayed in a particular context</li>
+<li>A web content article can be created in a location where users can access it <ol>
+<li>Global content repository</li>
+<li>Site to which the target users have access<ul>
+<li>Content can be syndicated to another site</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>The content is permissioned appropriately<ol>
+<li>Site Member/Role<ul>
+<li>Membership driven by Service Package</li>
+</ul>
+</li>
+<li>Guest</li>
+</ol>
+</li>
+<li>Categories are applied to the Web Content Article</li>
+<li>Asset Publisher is configured to display Web Content Articles:<ol>
+<li>Scope includes site or repository where the Web Content is located</li>
+<li>Categories are configured on the Asset Publisher to include the Web Content Article in the display criteria </li>
+<li>Personalization settings can be configured on the Asset Publisher<ul>
+<li>By selecting a Global vocabulary in Personalization</li>
+<li>Asset Publisher looks at the categories on the user viewing the page from the selected vocabulary</li>
+<li>Asset Publisher then displays other assets that have the same categories applied to them as to the user</li>
+</ul>
+</li>
+<li>The article is displayed in an Asset publisher portlet on any site as long as it is scoped and configured to display content from the site where the content is stored and based on categorization</li>
+</ol>
+</li>
+</ol>
+<h3 id="publish-content-that-can-appear-on-one-page-then-downstream-content-managers-can-choose-to-display-the-content-in-a-site-or-modify-the-content-before-it-is-displayed">Publish content that can appear on one page, then downstream content managers can choose to display the content in a site or modify the content before it is displayed</h3>
+<pre><code>* This is also a simple way to publish content.
+* Ease of Publishing: Simple
+* Ease of Administration: Medium
+</code></pre><ol>
+<li>In this example, the publishing model is the same as number 4 above, with one additional set of steps.</li>
+<li>When the content is published by the main content manager, a secondary content manager can be notified of the piece of content either by subscribing to a Category or maintaining an asset publisher visible to the content manager to show the new content as it is published.</li>
+<li>The secondary content manager can syndicate the content by applying new categories to a piece of content <ol>
+<li>The new categories drive which asset publishes on which pages will display the content and to whom</li>
+</ol>
+</li>
+<li>Categories can be permissioned differently for different roles<ol>
+<li>Categories can be configured so that different users in different roles can:<ul>
+<li>View the categories</li>
+<li>Apply the categories<ul>
+<li>Apply the categories to particular asset types (i.e. documents vs. web content)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>Note that a content manager can create a copy of an article, at which point the normal content creation process applies.</li>
+</ol>
+<h3 id="content-is-secured-so-that-only-one-or-more-groups-or-roles-can-see-the-content">Content is secured so that only one or more groups or roles can see the content</h3>
+<ol>
+<li>When a piece of content is published, a content manager can also select which roles have the View permission to a piece of content</li>
+<li>The view permission determines whether a piece of content can be seen at all, despite whether the user can see the page or context around where the piece of content is displayed</li>
+<li>Even though an Asset Publisher portlet may be configured to display a piece of content, a user must first have access to the content in order to be able to see it</li>
+<li>In the POC, content is permissioned by role, by permission<ul>
+<li>The interface may require additional changes to operate at the scale of tens of thousands of roles</li>
+</ul>
+</li>
+</ol>
 
                     
                     </section>
@@ -352,8 +567,10 @@
         </div>
 
         
-        <a href="../targeting_content/README.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Targeting Content"><i class="fa fa-angle-left"></i></a>
+        <a href="../publishing_content/README.html" class="navigation navigation-prev " aria-label="Previous page: Publishing Content"><i class="fa fa-angle-left"></i></a>
         
+        
+        <a href="../theme_configuration/README.html" class="navigation navigation-next " aria-label="Next page: Theme Configuration"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

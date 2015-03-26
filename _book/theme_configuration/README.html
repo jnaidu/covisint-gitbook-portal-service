@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Targeting Content | Covisint Portal Service</title>
+        <title>Theme Configuration | Covisint Portal Service</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
@@ -18,10 +18,10 @@
     
     
     
-    <link rel="next" href="../controlling_access_to_and_audience_for_content/README.html" />
+    <link rel="next" href="../glossary_of_terms.html/README.md" />
     
     
-    <link rel="prev" href="../publishing_content/README.html" />
+    <link rel="prev" href="../controlling_access_to_and_audience_for_content/README.html" />
     
 
         
@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="4" data-basepath=".." data-revision="1426084028551">
+    <div class="book"  data-level="5" data-basepath=".." data-revision="1426193391513">
     
 
 <div class="book-summary">
@@ -221,15 +221,15 @@
         </li>
     
         
-        <li class="chapter active" data-level="4" data-path="targeting_content/README.html">
+        <li class="chapter " data-level="4" data-path="controlling_access_to_and_audience_for_content/README.html">
             
                 
-                    <a href="../targeting_content/README.html">
+                    <a href="../controlling_access_to_and_audience_for_content/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.</b>
                         
-                         Targeting Content
+                         Controlling Access to and Audience for Content
                     </a>
                 
             
@@ -237,15 +237,31 @@
         </li>
     
         
-        <li class="chapter " data-level="5" data-path="controlling_access_to_and_audience_for_content/README.html">
+        <li class="chapter active" data-level="5" data-path="theme_configuration/README.html">
             
                 
-                    <a href="../controlling_access_to_and_audience_for_content/README.html">
+                    <a href="../theme_configuration/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>5.</b>
                         
-                         Controlling Access to and Audience for Content
+                         Theme Configuration
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6" data-path="glossary_of_terms.html/README.md">
+            
+                
+                    <a href="../glossary_of_terms.html/README.md">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                         Glossary of Terms
                     </a>
                 
             
@@ -341,24 +357,137 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_3037">
+                    <section class="normal" id="section-gitbook_13">
                     
-                        <h1 id="targeting-content">Targeting Content</h1>
-<p>This section describes the different ways to introduce a piece of web content into an environment, based on the business rules and the model that is configured in the POC. There are several ways to deliver content:</p>
+                        <h1 id="theme-configuration">Theme Configuration</h1>
+<p>The following sections describe how to add other types of content, including portlets and pages, as well as how to provision that content based on service packages or perform other, more advanced configuration.</p>
+<h2 id="configurable-theme-elements">Configurable Theme Elements</h2>
+<p>The Covisint Standard Theme has the following key attributes:</p>
+<pre><code>Key portlets optimized for the generic theme (mobile and big browser) Responsive and Adaptive behaviors
+* Responsive design
+* Adaptive navigation
+* Gesture support for key portlets
+* Includes Twitter Bootstrap and 7 page layouts optimized for bootstrap
+</code></pre><pre><code>Media queries in the bootstrap CSS are (first number indicates the min width for activation second number is the max width for activation):
+* 767 min / 768 max (768)
+* 991 min / 992 max (992)
+* 1199 min / 1200 max (1200)
+</code></pre><pre><code>Optimized navigation
+* Direct drag and drop page navigation and page name modification disabled to avoid inadvertent site map changes
+* Clickable top navigation optimized for big browser and mobile
+</code></pre><h2 id="configurable-page-elements-accessible-from-manage-pages-menu-configurable-style">Configurable page elements accessible from Manage Pages menu Configurable style</h2>
+<pre><code>* Configurable style sheet override
+* Configurable footer
+* Dynamic style inheritance based on Organization hierarchy             
+</code></pre><p>The following settings can be configured:</p>
+<ul>
+<li><p><strong>Show Portlet Borders by Default (Default value: false)</strong> – This setting controls whether portlets are enabled or disabled when portlets are dropped on a page.  Note that this setting only controls the default for portlets when they are initially dropped on a page and does not toggle borders off or on when enabled or disabled. Show Site Name (Default value: true) – This setting controls whether the site name is displayed in the top right section of the Masthead</p>
+</li>
+<li><p><strong>Hide-asset-publisher-icons (Default value: true)</strong> – This setting controls whether the default Liferay icons are displayed in the standard Asset Publisher Display Styles (Table, Title List, Abstract, Full Content)</p>
+</li>
+<li><strong>Hide-goto-menu (Default value: false)</strong> – This setting controls whether the Go To menu is displayed in the Dock Bar.  The Go To menu can be suppressed where users have content management rights on only one site or access to Control Panel needs to be restricted</li>
+<li><strong>Enable-theme-inheritance (Default value: false)</strong> – This setting controls whether theme inheritance is enabled.  Theme inheritance controls whether a CSS override and custom footer content will be applied to a page or site based on a users Organization membership.  The Footer content is HTML that is embedded in the Footer of the theme.  The CSS Override has settings that will override content styling in the footer.  The business rules are provided in a separate section below.</li>
+<li><strong>Max-page-width (Default value: 1200)</strong> – This setting controls the maximum page width of the content and navigation.  The maximum value is 1200 px.  Note that this setting can be used in conjunction with mobile device rules.  The max width for mobile-only parallel pages can be set within the standard break points for the responsive design.</li>
+<li><strong>Support IE8 Responsiveness (Default value: false)</strong> – This setting controls whether the page will load an additional CSS file to support responsive behavior in IE8.  If IE8 is not a required browser, this setting can be used to prevent the additional CSS from being loaded, improving page performance.</li>
+<li><strong>IE8 Stylesheet (Default value: /documents/null/ie8.css)</strong> – This setting controls the URL to the CSS file for IE8 responsive behavior.</li>
+<li><strong>Include Search (Default value: true)</strong> – This setting controls whether the search box is displayed on a page or not.  The search box appears on the top right of the Top Hat section of the page.</li>
+</ul>
+<h2 id="theme-override">Theme Override</h2>
+<p>The following elements can be configured in the theme CSS Override.  The CSS Override is based on a structure and template.  The default values in the structure can be set using the standard functionality.  The Theme is designed to look for content based on a structure named STYLESHEET_OVERRIDE and for the Footer based on a structure named FOOTER_CONTENT.  The list of items that can be configured are outlined below and the values entered are HTML code for the various elements (Hexadecimal values for colors, em size for font sizes, and image paths for images):</p>
+<ul>
+<li><strong>Base Styles</strong><ul>
+<li>Background Color</li>
+<li>Base Font Size</li>
+<li>Dockbar Styles</li>
+<li>Dockbar Background Color</li>
+<li>Dockbar Link Color</li>
+<li>Dockbar Link (Hover) Color</li>
+</ul>
+</li>
+<li><strong>Top Hat Rules</strong><ul>
+<li>Top Hat Sidewall Color</li>
+<li>Top Hat Background Color</li>
+<li>Masthead Styles</li>
+<li>Brand Logo</li>
+<li>Masthead Background Image</li>
+<li>Masthead Background Color</li>
+<li>Masthead Sidewall Color</li>
+<li>Masthead Site Name Font Size</li>
+<li>Masthead Site Name Font Color</li>
+</ul>
+</li>
+<li><strong>Navigation Styles</strong><ul>
+<li>Navigation Background Color</li>
+<li>Navigation Sidewall Color</li>
+<li>Navigation Link Text Color</li>
+<li>Navigation Link Text (Hover) Color</li>
+<li>Navigation Active Link Background Color</li>
+</ul>
+</li>
+<li><strong>Content Area Styles</strong><ul>
+<li>Content Area Sidewall Color</li>
+<li>Content Area Background Color</li>
+</ul>
+</li>
+<li><strong>Footer Styles</strong><ul>
+<li>Footer Background Color</li>
+<li>Footer Sidewall Color</li>
+<li>Footer Text Color</li>
+<li>Footer Link Color</li>
+<li>Footer Link (Hover) Color</li>
+</ul>
+</li>
+<li><strong>Typography Styles</strong><ul>
+<li>Content H1 Font Size</li>
+<li>Content H1 Font Color</li>
+<li>Content H1 Font Weight</li>
+<li>Content H2 Font Size</li>
+<li>Content H2 Font Color</li>
+<li>Content H2 Font Weight</li>
+<li>Content H3 Font Size</li>
+<li>Content H3 Font Color</li>
+<li>Content H3 Font Weight</li>
+<li>Content H4 Font Size</li>
+<li>Content H4 Font Color</li>
+<li>Content H4 Font Weight</li>
+</ul>
+</li>
+</ul>
+<h2 id="business-rules-for-theme-override">Business Rules for Theme Override</h2>
+<p>The following business rules describe how Theme Inheritance works when enabled and disabled:</p>
 <ol>
-<li>Publish content on a single page that is displayed to all users</li>
-<li>Publish content on a page that is displayed to users of just one customer</li>
-<li>Publish content on a page that is displayed to users based on context</li>
-<li>Publish content on a page based on personalization or preference</li>
-<li>Publish content that can appear on one page, then downstream content managers can choose to display the content in a site or modify the content before it is displayed</li>
-<li>Content is secured so that only one or more groups or roles can see the content</li>
+<li>Base theme is the Covisint branded theme on a specific site (“Site A”)<ul>
+<li>Assumptions:<ol>
+<li>Site A is not part of the Org Site hierarchy where the users belong</li>
+<li>A user can only belong directly to one Organization at a time<ul>
+<li>A users’ organization may be a member of one or more other organizations<ul>
+<li>This could be used to drive access to more than one or all sites in a hierarchy</li>
+<li>This could be used to create a matrixed organization</li>
+</ul>
+</li>
+<li>A user will be a named, individual member of only one Organization</li>
+</ul>
+</li>
 </ol>
-<h2 id="publish-content-on-a-single-page-that-is-displayed-to-all-users">Publish content on a single page that is displayed to all users</h2>
-<h2 id="publish-content-on-a-page-that-is-displayed-to-users-of-just-one-customer">Publish content on a page that is displayed to users of just one customer</h2>
-<h2 id="publish-content-on-a-page-that-is-displayed-to-users-based-on-context">Publish content on a page that is displayed to users based on context</h2>
-<h2 id="publish-content-on-a-page-based-on-personalization-or-preference">Publish content on a page based on personalization or preference</h2>
-<h2 id="publish-content-that-can-appear-on-one-page-then-downstream-content-managers-can-choose-to-display-the-content-in-a-site-or-modify-the-content-before-it-is-displayed">Publish content that can appear on one page, then downstream content managers can choose to display the content in a site or modify the content before it is displayed</h2>
-<h2 id="content-is-secured-so-that-only-one-or-more-groups-or-roles-can-see-the-content">Content is secured so that only one or more groups or roles can see the content</h2>
+</li>
+<li>If the check box for” Enable Theme Inheritance” is checked:<ol>
+<li>If there is no override web content article anywhere in the portal, theme appears as default for all users on Site A.</li>
+<li>If there is an override web content article in the web content repository for Site A and nowhere else in the portal, Site A will have the style overrides of that web content article.</li>
+<li>If there is an override web content article in the Org Site where the user is a named, individual member of the Organization, (“Site B”) then the style overrides of the web content article in Site B will be applied to Site A when the user visits site A.</li>
+<li>If there is not an override web content article in the Org Site where the user is a named, individual member of the Organization, (“Site B”) but there is an override web content in the hierarchy of Orgs where the user is a named individual member (“Site C”)then the style overrides of the web content article in Site C will be applied to Site A when the user visits site A.</li>
+</ol>
+</li>
+<li>If the check box for “Enable Theme Inheritance” is NOT checked:<ol>
+<li>If there is no override web content article anywhere in the portal, theme appears as default for all users on Site A.</li>
+<li>If there is an override web content article in the web content repository for Site A and nowhere else in the portal, Site A will have the style overrides of that web content article.</li>
+<li>If there is an override web content article in the Org Site where the user is a named, individual member of the Organization, (“Site B”) then the style overrides of the web content article in Site B will NOT be applied to Site A when the user visits site A.</li>
+<li>If there is not an override web content article in the Org Site where the user is a named, individual member of the Organization, (“Site B”) but there is an override web content in the hierarchy of Orgs where the user is a named individual member (“Site C”)then the style overrides of the web content article in Site C will NOT be applied to Site A when the user visits site A.</li>
+</ol>
+</li>
+<li>The check box for “Enable Theme Inheritance” is NOT checked by default.</li>
+</ul>
+</li>
+</ol>
 
                     
                     </section>
@@ -369,10 +498,10 @@
         </div>
 
         
-        <a href="../publishing_content/README.html" class="navigation navigation-prev " aria-label="Previous page: Publishing Content"><i class="fa fa-angle-left"></i></a>
+        <a href="../controlling_access_to_and_audience_for_content/README.html" class="navigation navigation-prev " aria-label="Previous page: Controlling Access to and Audience for Content"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../controlling_access_to_and_audience_for_content/README.html" class="navigation navigation-next " aria-label="Next page: Controlling Access to and Audience for Content"><i class="fa fa-angle-right"></i></a>
+        <a href="../glossary_of_terms.html/README.md" class="navigation navigation-next " aria-label="Next page: Glossary of Terms"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
